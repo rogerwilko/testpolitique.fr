@@ -178,7 +178,7 @@
     $psdroite = array (
         
         "nom" => "Parti Socialiste (PS) - Aile droite",
-        "descr" => "Le Parti Socialiste, descendant lointain de la SFIO, est le parti de gauche le plus influent en France.<br />Son aile droite, plus libérale sur le plan économique et plus sécuritaire, est représentée par des personnes comme Manuel Vals et François Hollande.<br />Le candidat du PS à l'élection présidentielle de 2012 est François Hollande.",
+        "descr" => "Le Parti Socialiste, descendant lointain de la SFIO, est le parti de gauche le plus influent en France.<br />Son aile droite, plus libérale sur le plan économique et plus sécuritaire, est représentée par des personnes comme Manuel Valls et François Hollande.<br />Le candidat du PS à l'élection présidentielle de 2012 est François Hollande.",
         "lien" => "http://www.parti-socialiste.fr",
         "pos" => "Centre-Gauche",
         

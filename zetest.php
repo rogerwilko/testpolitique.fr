@@ -230,11 +230,11 @@
             
             $pos=0;
             
-            echo("<br /><br /><br /><div class='resulttitle'>I) Positionnement sur l'axe Economie</div>");
+            echo("<br /><br /><br /><div class='resulttitle'>I) Positionnement sur l'axe Système économique</div>");
             
-            $pos=writeResult("Rapports de production", "La gauche aura tendance à être plus interventionniste, plus sociale, plus attachée aux services publics, à la lutte contres les inégalités et à la redistribution des richesses.<br />La droite sera plus partisante du libre-échange, de la dérégulation, de la défense du droit de propriété et des impôts faibles.", "Socialiste / Capitaliste - Libéral", $coco, $pos);
-            $pos=writeResult("Décentralisation", "Utile, par exemple, pour faire la différence entre les communistes libertaires et les socialistes étatistes, ou entre les libéraux et les gaullistes.<br /> La gauche défendra plutôt la décentralisation économique et politique, alors que la droite voudra une plus grande centralisation au niveau national.", "Décentralisateur / Centralisateur - Etatiste", $decentr, $pos);
-            $pos=writeResult("Education", "Les valeurs éducatives de la gauche seront plus tournées vers l'être humain, l'autonomie, la pédagogie, l'égalité et le combat pour une éducation nationale indépendante des entreprises privées.<br />Les valeurs de la droite, elles, seront plutôt tournées vers des méthodes éducatives traditionnelles, l'autorité, la discipline et l'ouverture au monde du travail.", "Humaniste - Pédagogue / Traditionnaliste - Pro-entreprise", $educ, $pos);
+            $pos=writeResult("Propriété privée", "La gauche aura tendance à être plus interventionniste, plus sociale, plus attachée aux services publics, à la lutte contre les inégalités et à la redistribution des richesses.<br />La droite sera plus partisante du libre-échange, de la dérégulation, de la défense du droit de propriété et des impôts faibles.", "Socialisme / Libéralisme économique", $coco, $pos);
+            $pos=writeResult("Décentralisation", "Utile, par exemple, pour faire la différence entre les communistes libertaires et les socialistes étatistes, ou entre les libéraux et les gaullistes.<br /> La gauche défendra plutôt la décentralisation économique et politique, alors que la droite voudra une plus grande centralisation au niveau national.", "Fédéralisme / Etatisme", $decentr, $pos);
+            $pos=writeResult("Education", "Les valeurs éducatives de la gauche seront plus tournées vers l'être humain, l'autonomie, la pédagogie, l'égalité et une éducation nationale indépendante des entreprises privées.<br />Les valeurs de la droite, elles, seront plutôt tournées vers des méthodes éducatives traditionnelles, l'autorité, la discipline et l'ouverture au monde du travail.", "Humanisme / Traditionnalisme", $educ, $pos);
             
             writeResult("Positionnement général", "", "", array_merge($coco, $decentr, $educ), 0);
             $pos2=$pos;
@@ -242,9 +242,9 @@
             
             echo("<br /><br /><br /><br /><br /><br /><div class='resulttitle'>II) Positionnement sur l'axe Liberté</div>");
             
-            $pos=writeResult("Rapport à l'autorité", "Un positionnement de gauche sera plus libertaire, plus anti-hiérarchie, plus anti-conformiste.<br />Un positionnement de droite, en revanche, sera plus respectueux de l'autorité et de la hiérarchie.", "Libertaire - Autonome / Autoritaire - Soumis", $hiera, $pos);
-            $pos=writeResult("Libertés individuelles", "La gauche défendra les libertés individuelles, la libre sexualité, la liberté de disposer de son corps.<br />La droite, à l'inverse, sera plus conservatrice et défendra l'ordre social traditionnel.", "Progressiste / Réactionnaire", $lib, $pos);
-            $pos=writeResult("Morale & Justice", "Alors que la gauche sera moins moraliste, plus tournée vers la prévention et l'aide sociale que vers la répression, la droite sera plus axée sur l'affirmation de la loi, de l'armée, de la police et la responsabilité individuelle.", "Autodiscipline / Conservateur - Légaliste", $just, $pos);
+            $pos=writeResult("Rapport à l'autorité", "Un positionnement de gauche sera plus libertaire, plus anti-hiérarchie, plus anti-conformiste.<br />Un positionnement de droite, en revanche, sera plus respectueux de l'autorité et de la hiérarchie.", "Libertaire / Autoritaire", $hiera, $pos);
+            $pos=writeResult("Libertés individuelles", "La gauche défendra les libertés individuelles, la libre sexualité, la liberté de disposer de son corps.<br />La droite, à l'inverse, sera plus conservatrice et défendra l'ordre social traditionnel.", "Progressisme / Conservatisme", $lib, $pos);
+            $pos=writeResult("Morale & Justice", "Alors que la gauche sera moins moraliste, plus tournée vers la prévention et la réinsertion, la droite sera plus axée sur la répression et l'affirmation de la loi, de l'armée et de la police.", "Prévention / Répression", $just, $pos);
             
             writeResult("Positionnement général", "", "", array_merge($hiera, $lib, $just), $pos2);
             $pos2=$pos;
@@ -252,9 +252,9 @@
             
             echo("<br /><br /><br /><br /><br /><br /><div class='resulttitle'>III) Positionnement sur l'axe Société</div>");
             
-            $pos=writeResult("Ecologisme", "La gauche luttera contre les \"excès du capitalisme\", tels que le productivisme, le consumérisme, la surproduction, les gaspillages, l'obsolescence programmée,...<br />La droite se voudra plus \"pragmatique\", plus matérialiste, plus attachée à la bonne santé de l'économie et comptera sur les entreprises privées et les bienfaits du marché libre pour prendre soin de la planète.", "Ecologiste / Consumériste - Productiviste", $eco, $pos);
-            $pos=writeResult("Ouverture vers l'étranger", "La gauche se voudra internationaliste, altermondialiste, pour l'ouverture des frontières humaines et le mélange des cultures.<br />La droite sera plus nationaliste, plus protectionniste, plus chauvine, plus attachée à la défense de l'identité nationale, ceci pouvant aller parfois jusqu'à la xénophobie.", "Internationaliste - Mondialiste / Nationaliste",$imi, $pos);
-            $pos=writeResult("Démocratie", "La gauche sera attachée à un plus grand contrôle du peuple sur la politique, et à une gestion plus décentralisée de celle-ci. La position la plus à gauche serait la défense de la démocratie directe.<br />La droite, quant à elle, sera d'avantage attirée par un pouvoir fort, centralisé, efficace.", "Démocrate / Autoritaire", $demo, $pos);
+            $pos=writeResult("Environnement", "La gauche voudra lutter activement contre les \"excès du capitalisme\", tels que le productivisme, le consumérisme, la surproduction, les gaspillages,...<br />La droite se voudra plus pragmatique, plus attachée à la bonne santé de l'économie et comptera sur les entreprises privées et les bienfaits du marché libre pour prendre soin de la planète.", "Ecologisme / Productivisme", $eco, $pos);
+            $pos=writeResult("Ouverture vers l'étranger", "La gauche se voudra internationaliste, altermondialiste, pour l'ouverture des frontières humaines et le mélange des cultures.<br />La droite sera plus nationaliste, plus protectionniste, plus chauvine, plus attachée à la défense de l'identité nationale, ceci pouvant aller parfois jusqu'à la xénophobie.", "Internationalisme / Nationalisme",$imi, $pos);
+            $pos=writeResult("Institutions", "La gauche sera attachée à un plus grand contrôle du peuple sur la politique, et à une gestion plus décentralisée de celle-ci. La position la plus à gauche serait la défense de la démocratie directe.<br />La droite, quant à elle, sera davantage attirée par un pouvoir fort, centralisé, efficace.", "Démocratie / Autoritarisme", $demo, $pos);
             
             writeResult("Positionnement général", "", "", array_merge($eco, $imi, $demo), $pos2);
             $pos2=$pos;
@@ -263,7 +263,7 @@
             
             echo("<br /><br /><br /><br /><br /><br /><div class='resulttitle'>IV) Positionnement global</div><br />");
             
-            writeResult("Attention :", "Devant le grand nombre d'éléments mélangés ici, ce résultat est à prendre avec d'infinies précautions, en particulier si vous vous situez de côtés différents selon les axes principaux.<br />Ces grands axes sont donc à préférer à ce \"pot-pourri\".", "Gauche / Droite", array_merge($coco, $decentr, $educ, $hiera, $lib, $just, $eco, $imi, $demo), 0);
+            writeResult("Attention :", "Ce résultat est à prendre avec d'infinies précautions, en particulier si vous vous situez de côtés différents selon les axes principaux.<br />Ces grands axes sont donc à préférer à ce \"pot-pourri\".", "Gauche / Droite", array_merge($coco, $decentr, $educ, $hiera, $lib, $just, $eco, $imi, $demo), 0);
             //writeFinalResult("Attention :", "Devant le grand nombre d'éléments mélangés ici, ce résultat est à prendre avec d'infinies précautions, en particulier si vous vous situez de côtés différents selon les axes principaux.<br />Ces grands axes sont donc à préférer à ce \"pot-pourri\".", "Gauche / Droite");
 
             $pos2=$pos;
@@ -305,7 +305,11 @@
                 }
             }
 
-            
+			
+			
+            echo("<br /><br /><b>Partagez votre résultat avec vos amis !</b>");
+			
+			
             
             echo('<br /><br />
                 
