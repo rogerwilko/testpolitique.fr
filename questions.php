@@ -20,7 +20,25 @@
     
 
     $coco= array (
+	
+	    array(
+ 
+            "Il faut défendre la Valeur Travail et lutter contre l'assistanat.",
+            
+            array (
+
+                array("Pas du tout d'accord.",-6,0),
+                
+                array("Pas trop d'accord.",-2,0),
+                
+                array("D'accord en partie.",3,0),
+                
+                array("Tout à fait d'accord.",8,0)
+            )
+       
+        ),
         
+		
         array(
             
             "Le système économique, d'une manière générale :",
@@ -29,10 +47,9 @@
                 
                 array("Doit être totalement libre. Et, par libre, j'entends \"libre marché\".<br />
 Le marché libre sans entraves est un puissant moteur d'innovation et de création de richesses.
-La \"main invisible du marché\" permet une répartition efficiente des ressources et du travail, la fixation de prix justes par les mécanismes de l'offre et de la demande et une diminution constante de la misère.<br />
-Mettre des bâtons dans les roues des entrepreneurs, ce n'est pas \"améliorer la justice sociale et l'égalité\", mais niveler tout le monde par le bas.",8,0),
+La \"main invisible du marché\" permet une répartition efficiente des ressources et du travail, la fixation de prix justes par les mécanismes de l'offre et de la demande et une diminution constante de la misère.",8,0),
                 
-                array("L'économie capitaliste, basée sur le profit et l'exploitation de l'homme par l'homme, est une hérésie. Générer du profit sur le dos d'un autre être humain est de par nature purement immoral. La course au profit mène à des inégalités sociales toujours plus fortes, au renforcement du pouvoir des plus riches sur les plus pauvres, à l'accroissement de la misère et de la précarité. Il faut que cela cesse !",-6,0),
+                array("L'économie capitaliste, basée sur le profit et l'exploitation de l'homme par l'homme, est un problème. La course au profit mène à des inégalités sociales toujours plus fortes, au renforcement du pouvoir des plus riches sur les plus pauvres, à l'accroissement de la misère et de la précarité.",-6,0),
                 
                 array("Un marché libre est souhaitable. Néanmoins, il faut parfois mettre en place des mécanismes de régulation afin de pallier ses excès et faiblesses. L'Etat doit également se charger de fournir des services publics « de base » à ses citoyens (éducation, santé,...).",4,0),
                 
@@ -48,33 +65,15 @@ Mettre des bâtons dans les roues des entrepreneurs, ce n'est pas \"améliorer l
             
             array (
                 
-                array("Est un droit important, que nous devons protéger de toutes nos forces, mais qui doit parfois être limité dans le but d'éviter les plus gros abus et de satisfaire le bien commun.<br />
+                array("Est un droit important, que nous devons protéger, mais qui doit parfois être limité dans le but d'éviter les plus gros abus et de satisfaire le bien commun.<br />
 D'une manière générale, ce qui est géré par le privé l'est de manière bien plus efficace que ce qui est géré par la lourde machine étatique.",4,0),
                 
                 array("Est un droit inaliénable de l'être humain. D'ailleurs, celui-ci est clairement mentionné dès la Déclaration des droits de l'homme et du citoyen de 1789. Pourquoi donc l'Etat ou quelconque autorité s'arrogeraient-ils le privilège de réquisitionner ou d'imposer l'usage d'une propriété honnêtement acquise, qu'il s'agisse d'argent, de terre ou de son entreprise ?",8,0),
                 
-                array("Doit être protégé, mais dans les limites du raisonnable. Les grandes entreprises et les gros propriétaires ont très largement tendance à abuser du pouvoir que leur confère le fait de posséder beaucoup (d'argent, de moyens de production, etc). Il faut donc établir des règles et conventions mettant des bornes strictes à ce droit de propriété, en particulier pour ceux qui possèdent beaucoup.",-3,0),
+                array("Doit être protégé, mais dans les limites du raisonnable. Les grandes entreprises et les gros propriétaires ont tendance à abuser du pouvoir que leur confère le fait de posséder beaucoup (d'argent, de moyens de production, etc). Il faut donc établir des règles et conventions mettant des bornes à ce droit de propriété, en particulier pour ceux qui possèdent beaucoup.",-3,0),
                 
-                array("La propriété d'une manière générale, et en particulier celle des moyens de production, est une totale aberration. Il ne s'agit pas d'un « droit fondamental », mais d'une invention humaine, qui n'a rien de sacrée ou d'indépassable. Elle est un dogme répandu par la classe dominante afin de justifier l'exploitation des travailleurs et de défendre les privilèges indécents de la bourgeoisie.<br />
-Il faut socialiser les moyens de production, c'est-à-dire les remettre entre les mains des travailleurs et / ou des citoyens autogérés !",-8,0)
-            )
-       
-        ),
-        
-        
-        array(
- 
-            "Le Travail permet à l’homme de se réaliser pleinement.",
-            
-            array (
-
-                array("Pas du tout d'accord.",-6,0),
-                
-                array("Pas trop d'accord.",-2,0),
-                
-                array("D'accord en partie.",3,0),
-                
-                array("Tout à fait d'accord.",8,0)
+                array("Il ne s'agit pas d'un « droit fondamental », mais d'une invention humaine, qui n'a rien de sacrée ou d'indépassable. Elle est un dogme répandu par la classe dominante afin de justifier l'exploitation des travailleurs et de défendre les privilèges indécents de la bourgeoisie.<br />
+L'idéal serait de socialiser les moyens de production, c'est-à-dire les remettre entre les mains des travailleurs et / ou des citoyens autogérés !",-8,0)
             )
        
         ),
@@ -104,7 +103,7 @@ Il faut socialiser les moyens de production, c'est-à-dire les remettre entre le
             
             array (
                 
-                array("L'héritage est un concept bourgeois mis en place par les possédants afin de conserver l'oligarchie en place, en permettant l'accumulation des biens de génération en génération. En quel honneur un fils de riche devrait-il être certain d'être riche, et un fils de pauvre condamné à rester pauvre ? Le grand héritage est une honte antisociale à la base de graves inégalités, il devrait être supprimé. D'ailleurs, dans une société idéale, il n'y aurait plus de riches et de pauvres, d'exploiteurs et d'exploités.",-6,0),
+                array("L'héritage est un concept bourgeois mis en place par les possédants afin de conserver l'oligarchie en place, en permettant l'accumulation des biens de génération en génération. En quel honneur un fils de riche devrait-il être certain d'être riche, et un fils de pauvre condamné à rester pauvre ? Le grand héritage est une honte antisociale à la base de graves inégalités, il devrait être supprimé.",-6,0),
 
                 array("Il est naturel qu'une personne, de son vivant ou de sa mort, puisse faire le don de sa propriété à qui il souhaite. De quel droit l'Etat ou la prétendue communauté auraient-ils leur mot à dire là-dessus, ou, pire encore, se gaveraient-ils goulument au passage sur le dos d'un mort ?",8,0),
                 
@@ -124,10 +123,10 @@ Il faut socialiser les moyens de production, c'est-à-dire les remettre entre le
                 
                 
                 array("L'argent est la meilleure invention que l'homme ait trouvée afin de faciliter les échanges.
-Néanmoins, les banquiers et les spéculateurs ont accumulé beaucoup trop de pouvoirs, et il est nécessaire de remettre l'argent au service de la population. Pour cela, un contrôle plus direct des citoyens sur les banques serait utile, ainsi que des réformes monétaires en profondeur permettant de limiter leurs excès.",0,0),
+Néanmoins, les banquiers et les spéculateurs ont accumulé trop de pouvoirs, et il est nécessaire de remettre l'argent au service de la population. Pour cela, un contrôle plus direct des citoyens sur les banques serait utile, ainsi que des réformes monétaires en profondeur permettant de limiter leurs excès.",-1,0),
 
                 array("En attendant de pouvoir faire mieux, l'argent est un outil indispensable pour pouvoir échanger.
-Néanmoins, le système bancaire actuel est absolument mauvais, en permettant à un petit groupe de banquiers et de spéculateurs de régner en maîtres sur l'économie. Il faut nationaliser toutes les banques et créer un vrai service public bancaire au service de la population.",-6,0),
+Néanmoins, le système bancaire actuel est absolument mauvais, en permettant à un petit groupe de banquiers et de spéculateurs de régner en maîtres sur l'économie. Il faut nationaliser les banques et créer un vrai service public bancaire au service de la population.",-6,0),
                 
                 array("L'argent est la meilleure invention que l'homme ait trouvée afin de faciliter les échanges.<br />
 Néanmoins, le système actuel est trop sclérosé, trop rigide, trop centralisé. Pourquoi l'Etat disposerait-il d'un droit régalien sur la monnaie ? Libérons l'argent, en le délivrant du monopole de l'Etat et en confiant sa gestion à des banques privées en concurrence qui éditeront leur propre monnaie.",8,0),
@@ -136,7 +135,7 @@ Néanmoins, le système actuel est trop sclérosé, trop rigide, trop centralis�
 Le système bancaire actuel est, dans le fond, le bon, et permet un fonctionnement dynamique de l'économie, en permettant de réinvestir l'argent des clients dans des entreprises créatrices de richesses et d'emplois. Néanmoins, il est parfois nécessaire de le réformer afin de le parfaire et de répondre aux crises.",4,0),
 
                 array("L'argent tel que nous le connaissons aujourd'hui est un outil néfaste mais rendu indispensable et indépassable par les dogmes de la société capitaliste basée sur le profit.
-Il faut non seulement socialiser entièrement la création monétaire et les banques, mais également remettre en cause le fonctionnement de base de la monnaie. L'extension de la Gratuité, ou même l'introduction d'un nouveau paradigme monétaire empêchant l'accumulation d'argent (par exemple, la monnaie distributive, ou certains Systèmes d'Echanges Locaux) et permettant de fixer les prix des biens et services non plus en fonction de paramètres de rentabilité mais de critères sociaux et écologiques, seraient des solutions envisageables et souhaitables.",-8,0)
+Il faut non seulement socialiser entièrement la création monétaire et les banques, mais également remettre en cause le fonctionnement de base de la monnaie. L'extension de la Gratuité, ou même l'introduction d'un nouveau paradigme monétaire empêchant l'accumulation d'argent et permettant de fixer les prix des biens et services non plus en fonction de paramètres de rentabilité mais de critères sociaux et écologiques, seraient des solutions envisageables et souhaitables.",-8,0)
             )
        
         ),
@@ -168,17 +167,20 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
             
             array (
                 
-                array("Une bonne idée, mais il faut trouver les moyens de le financer, et le fixer à un seuil plutôt bas pour ne pas trop décourager le travail.",-4,0),
+                array("Une idée intéressante sur le principe, mais il faut trouver les moyens de le financer et faire en sorte que cela n'affecte pas la qualité des services publics, tout en ne décourageant pas le travail.",-4,0),
                 
                 array("De toute manière, impossible à financer, et potentiellement dangereux pour l’économie et le travail.",4,0),
                 
-                array("Autre nom pour l’assistanat : cela favoriserait la fainéantise la plus crasse.",8,0),
+                array("Autre nom pour favoriser encore plus l’assistanat et la fainéantise la plus crasse.",8,0),
+				
+				array("Une bonne idée si cela permet de remplacer toutes les aides sociales et privatiser les services publics.",8,0),
                 
-                array("Une idée diablement excitante afin de lutter contre la précarité et assurer à tous un niveau de vie décent, émanciper l’homme des contraintes du salariat, rémunérer le travail non productif.",-6,0)
+                array("Une excellente idée afin de lutter contre la précarité et assurer à tous un niveau de vie décent, émanciper l’homme des contraintes du salariat, bouleverser le rapport de force, rémunérer le travail non productif.",-6,0)
             )
        
         )
-    
+		
+
     );
     
     
@@ -291,10 +293,8 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
 
                 array("Préparer nos enfants / adolescents / jeunes adultes à un métier et à l'entrée dans le monde du travail.",4,0),
                 
-                array("Apprendre à lire, écrire, compter, et les règles de bienséance de la vie en société.",3,0),
+                array("Apprendre à lire, écrire, compter, et les règles de bienséance de la vie en société.",4,0),
                 
-                array("Former la future élite de notre pays.",4,0),
-
                 array("Apprendre à devenir autonome, à communiquer avec son prochain ; former des êtres humains capables de penser par eux-mêmes.",-3,0)
             )
        
@@ -339,7 +339,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
         
         array(
  
-            "Un pays a besoin d'élites pour fonctionner. En cela, il faut bien effectuer des sélections successives pour garder les « bons » éléments et évacuer les « mauvais » :",
+            "Un pays a besoin d'élites pour fonctionner. En cela, il faut bien une certaine compétition et effectuer des sélections successives pour garder les « bons » éléments et évacuer les « mauvais » :",
             
             array (
 
@@ -367,9 +367,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 
                 array("Autonomie et esprit critique.",-2,0),
                 
-                array("Excellence.",4,0),
-                
-                array("Respect mutuel.",0,0)
+                array("Excellence et Mérite.",4,0)
             )
        
         ),
@@ -385,7 +383,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 
                 array("Il faut l’autogestion totale des établissements par les élèves, les professeurs et le personnel.",-3,0),
                 
-                array("Est une honte ! Il faut rétablir l’autorité des enseignants, et remettre au goût du jour la distinction élève professeur.",4,0),
+                array("Est une honte ! Il faut rétablir l’autorité des enseignants, et remettre au goût du jour la distinction élève / professeur.",4,0),
                 
                 array("Est déjà bien assez étendue comme ça. Les élèves n’ont pas de temps à perdre à tergiverser dans des débats futiles, ils sont là pour apprendre.",2,0)
             )
@@ -401,11 +399,11 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
 
                 array("Est une excellente chose, car elle permet d’adapter la formation des étudiants aux besoins de l’économie réelle !",4,0),
 
-                array("Est dangereuse, car l’école n’est pas une marchandise. Il faut lutter contre la privatisation rampante de l’éducation nationale, et augmenter son budget afin de la maintenir indépendante des intérêts privés.",-1,0),
+                array("Est dangereuse, car l’école n’est pas une marchandise. Il faut lutter contre la privatisation rampante de l’éducation nationale, et augmenter son budget afin de la maintenir indépendante des intérêts privés.",-2,0),
                 
                 array("Peut être envisagée, car, en plus d’apporter un financement améliorant les conditions d’études, apporte un point de vue nouveau sur la situation.",2,0),   
                 
-                array("Est scandaleuse. Il faut interdire toute participation privée à la vie des établissements publics, ainsi que toute “publicité” et propagande pour des entreprises privées. Entreprises, hors de nos campus !",-3,0)
+                array("Est scandaleuse. Il faut interdire toute participation privée à la vie des établissements publics, ainsi que toute “publicité” et propagande pour des entreprises privées. Entreprises, hors de nos campus !",-4,0)
             )
        
         ),

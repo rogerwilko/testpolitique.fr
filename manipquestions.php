@@ -65,7 +65,6 @@
                 if($idrep!=-1)
                 {
                     $score+=$sa[$posinsa][1][$idrep][1];
-                    //echo "$posinsa $idrep<br />";
                 }
                 
                 $posinsa++;
@@ -104,10 +103,7 @@
                 else if($i!=0)
                 {
                     $pc=$i*100/$ech;
-                    
-                    /*if($inflg!=null && ($pc >= ($pos - $inflg)) && ($pc <= ($pos + $infld)))
-                        $ret.="<span class='infl'>-</span>";*/
-                    
+
                     if($inflg!=null && ($pc >= ($pos - $inflg)) && $minpasse==0)
                     {
                         $minpasse=1;
@@ -314,7 +310,7 @@
         }
         
         
-        // récupération des trois meilleus partis
+        // récupération des trois meilleurs partis
         function getMeilleursPartis($p)
         {
             $res=array();
@@ -333,8 +329,10 @@
             if($s>2)
                 $res[]=$mp[2];
             
-            //return $mp;
+			
             return $res;
+			
+			//return $mp; // tous les partis
         }
         
 ?>

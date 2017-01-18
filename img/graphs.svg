@@ -1,22 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
    height="297mm"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.46"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="graphs.svg"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.1">
   <defs
      id="defs4">
+    <linearGradient
+       id="linearGradient4212"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4214" />
+    </linearGradient>
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
        inkscape:vp_x="0 : 526.18109 : 1"
@@ -24,6 +36,15 @@
        inkscape:vp_z="744.09448 : 526.18109 : 1"
        inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
        id="perspective10" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4212"
+       id="linearGradient4216"
+       x1="114.15676"
+       y1="989.28327"
+       x2="137.79538"
+       y2="989.28327"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -33,15 +54,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="268.17808"
-     inkscape:cy="986.88093"
+     inkscape:cx="170.19838"
+     inkscape:cy="216.20994"
      inkscape:document-units="px"
      inkscape:current-layer="g2461"
      showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="848"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      inkscape:window-x="-8"
-     inkscape:window-y="-8" />
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -67,7 +89,8 @@
          id="g2476"
          inkscape:export-filename="D:\xampp\htdocs\projets\testpol\img\logo.png"
          inkscape:export-xdpi="84.640701"
-         inkscape:export-ydpi="84.640701">
+         inkscape:export-ydpi="84.640701"
+         transform="translate(148.57143,413.57143)">
         <rect
            style="fill:#ffffff"
            id="rect2459"
@@ -78,7 +101,7 @@
         <flowRoot
            xml:space="preserve"
            id="flowRoot2423"
-           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Segoe Script;-inkscape-font-specification:Segoe Script"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            transform="matrix(5.330343,0,0,5.7073901,-1175.1054,-625.20699)"><flowRegion
              id="flowRegion2425"><rect
                id="rect2427"
@@ -86,11 +109,11 @@
                height="114.28571"
                x="241.42857"
                y="128.07646"
-               style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Segoe Script;-inkscape-font-specification:Segoe Script" /></flowRegion><flowPara
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';text-align:start;writing-mode:lr-tb;text-anchor:start" /></flowRegion><flowPara
              id="flowPara2431">testpolitique</flowPara></flowRoot>        <flowRoot
            xml:space="preserve"
            id="flowRoot2435"
-           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Segoe Script;-inkscape-font-specification:Segoe Script"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            transform="matrix(5.330343,0,0,5.7073901,-809.71539,-629.16723)"><flowRegion
              id="flowRegion2437"><rect
                id="rect2439"
@@ -98,11 +121,11 @@
                height="114.28571"
                x="241.42857"
                y="128.07646"
-               style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;font-family:Segoe Script;-inkscape-font-specification:Segoe Script" /></flowRegion><flowPara
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ff0000" /></flowRegion><flowPara
              id="flowPara2441">.fr</flowPara></flowRoot>        <flowRoot
            xml:space="preserve"
            id="flowRoot2443"
-           style="font-size:10px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Segoe Script;-inkscape-font-specification:Segoe Script Bold Italic"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold Italic';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            transform="matrix(1.6645418,0,0,1.7822849,-250.32014,-38.696269)"><flowRegion
              id="flowRegion2445"><rect
                id="rect2447"
@@ -110,10 +133,139 @@
                height="114.28571"
                x="241.42857"
                y="128.07646"
-               style="font-size:10px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Segoe Script;-inkscape-font-specification:Segoe Script Bold Italic" /></flowRegion><flowPara
+               style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold Italic';text-align:start;writing-mode:lr-tb;text-anchor:start" /></flowRegion><flowPara
              id="flowPara2449"
-             style="font-size:10px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Segoe Script;-inkscape-font-specification:Segoe Script Bold Italic">Situez vous sur l'échiquier politique</flowPara></flowRoot>      </g>
-    </g>
+             style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold Italic';text-align:start;writing-mode:lr-tb;text-anchor:start">Situez vous sur l'échiquier politique</flowPara></flowRoot>      </g>
+      <rect
+         style="fill:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect4153"
+         width="64"
+         height="64"
+         x="131.03012"
+         y="180.32298"
+         ry="0" />
+      <rect
+         style="fill:#ff0000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect4153-3"
+         width="32.180195"
+         height="64"
+         x="162.83316"
+         y="180.2941"
+         ry="0" />
+      <ellipse
+         style="fill:#ffffff;stroke:none;stroke-width:1.95236576;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path4251"
+         cx="163.01337"
+         cy="212.03552"
+         rx="30.075855"
+         ry="29.82933" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:61.41404343px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.78361368;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="139.3217"
+         y="234.01302"
+         id="text4176"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4178"
+           x="139.3217"
+           y="234.01302"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.78361368;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">t</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:53.38920975px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.78361368;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="157.95514"
+         y="224.16248"
+         id="text4176-8"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4178-7"
+           x="157.95514"
+           y="224.16248"
+           style="stroke-width:1.78361368">p</tspan></text>
+      <rect
+         style="fill:#002e91;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
+         id="rect4153-00"
+         width="64"
+         height="64"
+         x="242.93048"
+         y="183.61089"
+         ry="0"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#ffffff;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect4153-0-4"
+         width="47.658985"
+         height="45.722713"
+         x="259.27814"
+         y="183.58563"
+         ry="0"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#d40000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect4153-9-7"
+         width="29.908625"
+         height="28.602612"
+         x="277.09418"
+         y="183.5385"
+         ry="0"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         y="942.90887"
+         x="57.900673"
+         height="141.42136"
+         width="476.79202"
+         id="rect2459-1"
+         style="fill:#ffffff"
+         inkscape:export-xdpi="84.56517"
+         inkscape:export-ydpi="84.56517" />
+      <flowRoot
+         transform="matrix(12.077023,0,0,12.931302,-2774.2459,-784.66324)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.99996281px;line-height:125%;font-family:'Game Over';-inkscape-font-specification:'Game Over, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot2423-1"
+         xml:space="preserve"
+         inkscape:export-xdpi="84.56517"
+         inkscape:export-ydpi="84.56517"><flowRegion
+           id="flowRegion2425-3"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.99996281px;line-height:125%;font-family:'Game Over';-inkscape-font-specification:'Game Over, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1"
+             y="128.07646"
+             x="241.42857"
+             height="114.28571"
+             width="304.28571"
+             id="rect2427-6" /></flowRegion><flowPara
+           id="flowPara2431-5">testpolitique</flowPara></flowRoot>      <flowRoot
+         transform="matrix(6.3725874,-0.17097415,0.18306805,6.8233592,-1133.395,82.338211)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.99996281px;line-height:125%;font-family:'Game Over';-inkscape-font-specification:'Game Over, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot2435-6"
+         xml:space="preserve"
+         inkscape:export-xdpi="84.56517"
+         inkscape:export-ydpi="84.56517"><flowRegion
+           id="flowRegion2437-0"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.99996281px;line-height:125%;font-family:'Game Over';-inkscape-font-specification:'Game Over, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1"
+             y="128.07646"
+             x="241.42857"
+             height="114.28571"
+             width="304.28571"
+             id="rect2439-3" /></flowRegion><flowPara
+           id="flowPara2441-1">.fr</flowPara></flowRoot>      <flowRoot
+         transform="matrix(1.9382722,0,0,2.0753778,-373.35423,711.7705)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.0227623px;line-height:125%;font-family:'Game Over';-inkscape-font-specification:'Game Over, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#006bff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot2443-5"
+         xml:space="preserve"
+         inkscape:export-xdpi="84.56517"
+         inkscape:export-ydpi="84.56517"><flowRegion
+           id="flowRegion2445-8"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.0227623px;line-height:125%;font-family:'Game Over';-inkscape-font-specification:'Game Over, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#006bff;fill-opacity:1"
+             y="128.07646"
+             x="241.42857"
+             height="114.28571"
+             width="304.28571"
+             id="rect2447-8" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.0227623px;line-height:125%;font-family:'Game Over';-inkscape-font-specification:'Game Over, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#006bff;fill-opacity:1"
+           id="flowPara2449-8">Situez vous sur l'échiquier politique</flowPara></flowRoot>    </g>
     <flowRoot
        xml:space="preserve"
        id="flowRoot2451"
@@ -124,5 +276,5 @@
            height="109.09647"
            x="-79.802048"
            y="240.19954" /></flowRegion><flowPara
-         id="flowPara2457"></flowPara></flowRoot>  </g>
+         id="flowPara2457" /></flowRoot>  </g>
 </svg>

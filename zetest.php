@@ -38,32 +38,14 @@
               document.getElementById("bsub").attachEvent('onclick', gogogo);
             }
 
-            
-            //document.getElementById("bsub").addEventListener("click",gogogo,false);
         }
 
 
         function gogogo()
         {
-            //new Effect.Opacity('zetest',{ duration: 1, from: 1, to: 0, afterFinish: function() { document.zetest.submit(); } });
-
             document.zetest.submit();
         }
 
-
-
-        /*function goAJAX()
-        {
-                        new Ajax.Request('lolilol.php', {
-                        method: 'get', 
-
-                        onFailure: function(transport) { err("Erreur lors de la requÃªte AJAX !"); }, 
-                        onSuccess: function(transport){
-                        var heure = transport.responseText || "no response text";
-                        ajoutPost(heure);
-                }
-                 });
-        }*/
 
 </script>
 
@@ -178,24 +160,16 @@
             
             
             for($pos=0;$pos<$nbrquest;$pos++)
-            //foreach($_SESSION as $n => $v)
             {
-                //$get.="&$n=$v";
-                
                 if(isset($_SESSION["rad$pos"]) && $_SESSION["rad$pos"]!=-1)
                 {
                     $get[$pos]=$_SESSION["rad$pos"];
                 }
-                
-                //echo("$pos ".$get[$pos]." --> ".$get."<br />");
             }
             
             $get="zetest.php?result=$get";
             
-            //echo $get;
-            
-            echo "location.href = '$get'; ";
-            
+            echo "location.href = '$get'; ";    
             echo '</script>';
             
             return ;
@@ -204,8 +178,6 @@
         
         if(isset($_GET["result"]))
         {
-            //print_r($_SESSION);
-            
             $res=$_GET["result"];
             
             if($res!="1") // retrocompatibilité
@@ -217,8 +189,6 @@
                     
                     else
                         $_GET["rad$pos"]="-1";
-                    
-                    //echo("$pos --> ".$_GET["rad$pos"]."<br />");
                 }
             }
             
@@ -264,14 +234,9 @@
             echo("<br /><br /><br /><br /><br /><br /><div class='resulttitle'>IV) Positionnement global</div><br />");
             
             writeResult("Attention :", "Ce résultat est à prendre avec d'infinies précautions, en particulier si vous vous situez de côtés différents selon les axes principaux.<br />Ces grands axes sont donc à préférer à ce \"pot-pourri\".", "Gauche / Droite", array_merge($coco, $decentr, $educ, $hiera, $lib, $just, $eco, $imi, $demo), 0);
-            //writeFinalResult("Attention :", "Devant le grand nombre d'éléments mélangés ici, ce résultat est à prendre avec d'infinies précautions, en particulier si vous vous situez de côtés différents selon les axes principaux.<br />Ces grands axes sont donc à préférer à ce \"pot-pourri\".", "Gauche / Droite");
 
             $pos2=$pos;
-            
-            
-            //echo("<br /><br /><br /><br /><br /><br /><h2>Site en développement. Bientôt : une sélection des partis et organisations vous correspondant au mieux.</h2><br /><br />");
-            
-            
+
             
             echo("<br /><br /><br /><br /><br /><br /><div class='resulttitle'>V) Partis et organisations</div><br /><br /><br /><br />");
             
@@ -289,7 +254,7 @@
             {
                 foreach($mp as $p)
                 {
-                    echo "<h3><a href='".$p[1]["lien"]."'>".$p[1]["nom"]."</a></h3><br />";
+                    echo "<h3><a href='".$p[1]["lien"]." rel=\"nofollow\"'>".$p[1]["nom"]."</a></h3><br />";
                     echo("<div class='descr'>");
                     echo("Score : ".$p[0]."%<br />");
                     echo("Positionnement : ".$p[1]["pos"]."<br /><br />");
@@ -307,7 +272,7 @@
 
 			
 			
-            echo("<br /><br /><b>Partagez votre résultat avec vos amis !</b>");
+            echo("<br /><br /><b>Partagez vos résultats avec vos amis !</b>");
 			
 			
             
@@ -367,7 +332,7 @@
                 $numrep++;
             }
 
-            echo '<p class="questrep"><input type="radio" class="radinp" name="rad" value="-1" checked><span class="rad">Autre.</span></input></p>';
+            echo '<p class="questrep"><input type="radio" class="radinp" name="rad" value="-1" checked><span class="rad">Cette question ne m\'intéresse pas.</span></input></p>';
 
             
              echo '<br /><br /><br />

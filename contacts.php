@@ -5,7 +5,14 @@
 
 <br />
 <div class="quest">
+
 <div class="fb-like" data-href="http://www.facebook.com/testpolitiquefr" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+
+<!--<div style="height: 85px;">
+<div class="fb-like" data-href="http://www.facebook.com/testpolitiquefr" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+<a href="https://www.wattpad.com/user/JeremyDx" target="_blank"><img style="height: 60px; float: right;" src="img/wp.png" alt="wattpad" /></a><br />
+</div>-->
+
 <h2>Contacts</h2><br />
 <br />
 <br />

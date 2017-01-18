@@ -19,13 +19,13 @@ a:visited {
 
 a:hover {
     color: red ;
-    text-decoration: underline overline ;
+    /*text-decoration: underline overline ;*/
     font-weight: bold;
 }
 
 
 .menu {
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
     border: 1px;
     border-style: dashed;
     height: 50px;
@@ -38,13 +38,14 @@ a:hover {
     padding: 20px;
     padding-top: 25px;
     font-size: 12px;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
     border: 1px;
     border-style: dashed;
     /*height: 50px;*/
     margin: auto;
     text-align: center;
-    font-style: italic;
+    /*font-style: italic;*/
+	font-weight: bold;
 }
 
 
@@ -75,7 +76,7 @@ a:hover {
 
 
 h2 {
-    text-align: center;
+    /*text-align: center;*/
 }
 
 
@@ -97,7 +98,7 @@ h2 {
 
 .quest {
     font-size: 12px;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
     border: 1px;
     border-style: dashed;
     padding: 30px;
@@ -150,4 +151,11 @@ h2 {
     color: #ff0000;
     font-size: 16px;
     font-weight: bold;
+}
+
+
+div.fb-like {
+	
+	display: inline-block;
+	float: right;
 }

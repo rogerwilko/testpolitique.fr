@@ -28,8 +28,8 @@
 <div class="quest">
 <div class="fb-like" data-href="http://www.facebook.com/testpolitiquefr" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false"></div>
 
-<h2>Bienvenue sur testpolitique.fr !</h2><br />
-<br />
+<!-- <h2>Bienvenue sur testpolitique.fr !</h2><br /> 
+<br />-->
 <h3>Quoi ?</h3><br />
 Mais qu'est-ce donc que cette bête ?<br />
 <br />
