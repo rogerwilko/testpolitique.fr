@@ -1,7 +1,12 @@
 <?php
     include("header.php");
     
-    include("questions.php");
+	$isLight = isset($_GET["light"]);
+	
+    if($isLight)
+		include("questionslight.php");
+	else
+		include("questions.php");
     
     include("partis.php");
 ?>
@@ -125,6 +130,7 @@
         }
         
         
+		// récupération du numéro de la question courante
     
         if(!isset($_GET["quest"]))
             $quest=0;
@@ -135,10 +141,10 @@
             
             $quest=$_GET["quest"];
             
-            $_SESSION["rad".($quest-1)]=$_GET["rad"];
+            $_SESSION["rad".($quest-1)]=$_GET["rad"]; // on met la réponse à la question précédente dans la variable de session
         }
         
-        
+		
         
         $nbrquest=count($coco) + count($decentr) + count($educ) + count($hiera) + count($lib) + count($just) + count($eco) + count($imi) + count($demo);
         
@@ -167,8 +173,11 @@
                 }
             }
             
-            $get="zetest.php?result=$get";
-            
+			if($isLight)
+				$get="zetest.php?light&result=$get";
+			else
+				$get="zetest.php?result=$get";
+		
             echo "location.href = '$get'; ";    
             echo '</script>';
             
@@ -304,8 +313,11 @@
             $bigtab=array_merge($coco,$decentr,$educ, $hiera, $lib, $just, $eco, $imi, $demo);
             $nbrquest=count($bigtab);
             
-            
-            echo "<form method='get' name='zetest' class='zetest' id='zetest' action=''>";
+
+			echo "<form method='get' name='zetest' class='zetest' id='zetest' action=''>";
+			
+			if($isLight)
+				echo "<input type='hidden' id='light' name='light' />";
 
             echo "<input type='hidden' id='quest' name='quest' value='".($quest+1)."' />";
 

@@ -52,7 +52,8 @@
         
         <div class="menu">
             <div class="menelem"><a href="index.php">Accueil</a></div>
-            <div class="menelem"><a href="zetest.php">Faire le Test</a></div>
+            <div class="menelem"><a href="zetest.php">Test Normal</a></div>
+			<div class="menelem"><a href="zetest.php?light">Test Light</a></div>
             <div class="menelem"><a href="liens.php">Liens</a></div>
             <div class="menelem"><a href="contacts.php">Contacts</a></div>
         </div>

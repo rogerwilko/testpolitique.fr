@@ -67,7 +67,8 @@ Alors, qu'attendez-vous ?<br />
 <br />
 <br />
 <br />
-<a href="zetest.php">Faites le test !</a><br />
+<a href="zetest.php">Faites le Test !</a><br /><br />
+<a href="zetest.php?light">Ou faites le Test Light !</a> (version allégée, moins précise)<br />
 <br />
 </div>
 

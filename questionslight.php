@@ -21,7 +21,7 @@
 
     $coco= array (
 	
-	    array(
+	    /*array(
  
             "Il faut défendre la Valeur Travail et lutter contre l'assistanat.",
             
@@ -36,7 +36,7 @@
                 array("Tout à fait d'accord.",8,0)
             )
        
-        ),
+        ),*/
         
 		
         array(
@@ -59,7 +59,7 @@ La \"main invisible du marché\" permet une répartition efficiente des ressourc
         ),
         
         
-        array(
+        /*array(
  
             "Le droit de propriété privée :",
             
@@ -76,7 +76,7 @@ D'une manière générale, ce qui est géré par le privé l'est de manière bie
 L'idéal serait de socialiser les moyens de production, c'est-à-dire les remettre entre les mains des travailleurs et / ou des citoyens autogérés !",-8,0)
             )
        
-        ),
+        ),*/
         
         
         array(
@@ -97,7 +97,7 @@ L'idéal serait de socialiser les moyens de production, c'est-à-dire les remett
         ),
         
         
-        array(
+        /*array(
  
             "L'héritage :",
             
@@ -112,10 +112,10 @@ L'idéal serait de socialiser les moyens de production, c'est-à-dire les remett
                 array("L'héritage peut paraître être une chose absolument légitime, notamment aux yeux de ceux qui ont beaucoup à léguer. Cependant, il faut prendre en compte ses conséquences sociales. En effet, l'héritage peut s'avérer un facteur très aggravant des inégalités sociales, en permettant l'accumulation des biens sur plusieurs générations. Il doit donc être fortement régulé afin de garantir une certaine justice sociale.",-3,0)
             )
        
-        ),
+        ),*/
         
         
-        array(
+        /*array(
  
             "L'argent :",
             
@@ -138,10 +138,10 @@ Le système bancaire actuel est, dans le fond, le bon, et permet un fonctionneme
 Il faut non seulement socialiser entièrement la création monétaire et les banques, mais également remettre en cause le fonctionnement de base de la monnaie. L'extension de la Gratuité, ou même l'introduction d'un nouveau paradigme monétaire empêchant l'accumulation d'argent et permettant de fixer les prix des biens et services non plus en fonction de paramètres de rentabilité mais de critères sociaux et écologiques, seraient des solutions envisageables et souhaitables.",-8,0)
             )
        
-        ),
+        ),*/
         
         
-        array(
+        /*array(
  
             "La dette est souvent présentée comme le fléau de l'économie :",
             
@@ -158,10 +158,10 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 
                 array("Il faut absolument empêcher l'Etat (et ses citoyens !) de s'endetter, et donc limiter ses dépenses au maximum (qui plus est, financées avec nos impôts !). Pour cela, rien de mieux que de privatiser le plus possible les « services publics » qui coûtent bien trop cher au contribuable, tels que les autoroutes, les hôpitaux, les transports en commun, l'éducation, et de stopper enfin l'assistanat constitué par l'Etat providence, afin de se concentrer uniquement sur les services régaliens (armée, police, justice).",8,0)
             )
-        ),
+        ),*/
             
             
-        array(
+        /*array(
  
             "Le concept de Revenu inconditionnel (ou Revenu de base) consiste à verser à tous les citoyens, chaque mois, une même somme (en argent, et éventuellement en monnaie locale, en tickets restaurants, en tirage d'eau et d'électricité,...), et ce quelle que soit leur classe sociale.",
             
@@ -178,7 +178,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Une excellente idée afin de lutter contre la précarité et assurer à tous un niveau de vie décent, émanciper l’homme des contraintes du salariat, bouleverser le rapport de force, rémunérer le travail non productif.",-6,0)
             )
        
-        )
+        )*/
 		
 
     );
@@ -204,7 +204,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
         ),
         
         
-        array(
+        /*array(
  
             "Un Etat fort et centralisé est nécessaire pour assurer l'unicité et la cohérence de la République :",
             
@@ -219,10 +219,10 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",4,0)
             )
        
-        ),
+        ),*/
         
         
-        array(
+        /*array(
  
             "Il faut considérer l'Etat comme un ensemble de villes puis de régions interconnectées (bottom - up), plutôt que comme une nation divisée en villes et régions (top - down) :",
             
@@ -237,7 +237,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",-3,0)
             )
        
-        ),
+        ),*/
         
         
         array(
@@ -258,7 +258,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
         ),
         
         
-        array(
+        /*array(
  
             "Quelle devrait être, selon vous, l'élection la plus « importante » :",
             
@@ -273,14 +273,14 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("L'élection présidentielle.",3,0)            
             )
        
-        )
+        )*/
         
     );
     
     
     $educ = array (
         
-        array(
+        /*array(
  
             "En quelques mots, quel devrait être pour vous le rôle principal de l'éducation, au sens général du terme :",
             
@@ -298,10 +298,10 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Apprendre à devenir autonome, à communiquer avec son prochain ; former des êtres humains capables de penser par eux-mêmes.",-3,0)
             )
        
-        ),
+        ),*/
         
         
-        array(
+        /*array(
  
             "La notation est un outil efficace pour évaluer le travail, le mérite et le niveau de l'élève. De plus, elle permet de le motiver et de l’inciter à se dépasser :",
             
@@ -316,10 +316,10 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",4,0)
             )
             
-        ),
+        ),*/
         
         
-        array(
+        /*array(
  
             "L'intelligence est un concept abstrait qui n'existe pas en tant que tel. En effet, l'intelligence est absolument multidimensionnelle ; elle n'est pas innée mais est le résultat d'un contexte social, d'un vécu, d'une éducation. Il n'y a donc pas par défaut de « bons » ou « mauvais » élèves, mais des intelligences différentes et des potentiels intellectuels à construire, en tenant compte des spécificités de chacun :",
             
@@ -334,10 +334,10 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",-3,0)
             )
             
-        ),
+        ),*/
         
         
-        array(
+        /*array(
  
             "Un pays a besoin d'élites pour fonctionner. En cela, il faut bien une certaine compétition et effectuer des sélections successives pour garder les « bons » éléments et évacuer les « mauvais » :",
             
@@ -352,7 +352,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",4,0)
             )
        
-        ),
+        ),*/
         
         
         array(
@@ -363,9 +363,9 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
 
                 array("Discipline / Autorité.",4,0),
                 
-                array("Plaisir / Amour de la connaissance.",-2,0),
+                array("Plaisir / Amour de la connaissance.",-4,0),
                 
-                array("Autonomie et esprit critique.",-2,0),
+                array("Autonomie et esprit critique.",-4,0),
                 
                 array("Excellence et Mérite.",4,0)
             )
@@ -373,7 +373,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
         ),
         
         
-        array(
+        /*array(
  
             "La démocratie étudiante, au sens général :",
             
@@ -388,7 +388,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Est déjà bien assez étendue comme ça. Les élèves n’ont pas de temps à perdre à tergiverser dans des débats futiles, ils sont là pour apprendre.",2,0)
             )
        
-        ),
+        ),*/
         
         
         array(
@@ -409,7 +409,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
         ),
         
         
-        array(
+        /*array(
  
             "Il faut complètement refonder le système d’éducation supérieure de notre pays, morcelé (grandes écoles, IUT, facs,...), bureaucratique et élitiste, en l’intégrant dans une seule grande Université publique reprenant le meilleur de chacun, ouverte à tous (pas de sélection), basée sur l’autonomie des étudiants et indépendante des lobbies privés.",
             
@@ -424,7 +424,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",-3,0)
             )
             
-        )
+        )*/
         
     );
     
@@ -449,7 +449,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
         ),
         
         
-        array(
+        /*array(
  
             "Si vous évoluiez dans la société des rats (petit clin d’oeil à la “hiérarchie des rats” de Bernard Werber), vous seriez :",
             
@@ -464,10 +464,10 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Un souffre-douleur (ou assisté), se nourrissant des miettes laissées par les précédents.",-1,0)
             )
             
-        ),
+        ),*/
         
         
-        array(
+        /*array(
  
             "Votre rapport au pouvoir :",
             
@@ -482,7 +482,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Vous n’acceptez ni de commander, ni d'être commandé.",-3,0)
             )
             
-        ),
+        ),*/
         
         
         array(
@@ -503,7 +503,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
         ),
         
         
-        array(
+        /*array(
  
             "L’armée, la police :",
             
@@ -518,14 +518,14 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Sont des institutions qui doivent être contrôlées, mais qui sont malheureusement nécessaires au maintien de l’ordre.",-1,0)
             )
             
-        )
+        )*/
         
     );
     
     
     $lib = array (
         
-        array(
+        /*array(
  
             "Les drogues douces (en particulier, le cannabis et ses dérivés) :",
             
@@ -543,10 +543,10 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("N’ont pour “douces” que le nom. Une drogue est une drogue, un drogué est un drogué. Il faut continuer voire accentuer la répression de toutes les drogues !",4,0)
             )
             
-        ),
+        ),*/
         
         
-        array(
+        /*array(
  
             "Un travesti :",
             
@@ -561,10 +561,10 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Est une personne “pas tout à fait normale”, mais qui reste avant tout un être humain.",-1,0)
             )
             
-        ),
+        ),*/
         
         
-        array(
+        /*array(
  
             "L’institution du mariage, qu’il soit religieux ou civil, est primordiale à l’équilibre de notre société :",
             
@@ -579,10 +579,10 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",4,0)
             )
             
-        ),
+        ),*/
         
         
-        array(
+        /*array(
  
             "Les homosexuels devraient pouvoir se marier et adopter des enfants :",
             
@@ -595,10 +595,10 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Pouvoir se marier et adopter un enfant. Il n’y a pas de raison que deux pères ou deux mères aimants ne fassent pas aussi bien qu’un couple hétérosexuel !",-3,0)
             )
             
-        ),
+        ),*/
         
         
-        array(
+        /*array(
  
             "L’avortement...",
             
@@ -615,7 +615,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Est non seulement un droit essentiel, qui doit être gratuit et facilité ; mais il faut également lutter contre l’état d’esprit conservateur qui voudrait que “avorter n’est pas un acte anodin”, finalement pas si éloigné du fameux “mais c’est un meurtre !”.",-3,0)
             )
             
-        ),
+        ),*/
         
         
         array(
@@ -636,7 +636,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
         ),
         
         
-        array(
+        /*array(
  
             "Le port de la burqa doit être interdit dans les lieux publics.",
             
@@ -651,7 +651,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",4,0)
             )
             
-        ),
+        ),*/
         
         
         array(
@@ -694,7 +694,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
         ),
         
         
-        array(
+        /*array(
  
             "La peine de mort doit être rétablie :",
             
@@ -709,7 +709,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",4,0)
             )
             
-        ),
+        ),*/
         
         
         array(
@@ -730,7 +730,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
         ),
         
         
-        array(
+        /*array(
  
             "La prison est une institution dont l’existence est nécessaire et souhaitable afin de dissuader les potentiels criminels, punir les coupables et protéger la population des individus dangereux.",
             
@@ -745,7 +745,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",4,0)
             )
             
-        ),
+        ),*/
         
         
         /*array(
@@ -766,7 +766,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
         ),*/
         
         
-        array(
+        /*array(
  
             "Les caméras de surveillance protègent efficacement les citoyens de la criminalité.",
             
@@ -781,14 +781,14 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",4,0)
             )
             
-        )
+        )*/
         
     );
     
     
     $eco = array (
         
-        array(
+        /*array(
  
             "A propos de l’énergie nucléaire :",
             
@@ -805,7 +805,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("L’industrie nucléaire est un facteur de la grandeur de la France et de son indépendance par rapport aux pays pétroliers. Celle-ci ne présente pratiquement que des avantages (économiques, scientifiques, etc), et est sans conteste l’énergie du 21ème siècle. Cessons d’être paranoïaques et technophobes. Il faut encourager vigoureusement son développement, y compris en effectuant des recherches sur la fusion nucléaire (réacteur ITER) et en exportant nos technologies à l’étranger ; et construire plus de centrales en France pour enfin être débarrassés du pétrole et du charbon.",3,0)
             )
             
-        ),
+        ),*/
         
         
         /*array(
@@ -844,7 +844,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
         ),
         
         
-        array(
+        /*array(
  
             "Le fait de posséder (de l’argent, des objets) peut être considéré comme un indicateur efficace du bonheur.",
             
@@ -859,10 +859,10 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",4,0)
             )
             
-        ),
+        ),*/
         
         
-        array(
+        /*array(
  
             "La Croissance économique (augmentation du Produit Intérieur Brut) est un bon indicateur du niveau de vie des habitants d’un pays. Elle doit être consolidée par des politiques de relance de l’économie adaptées. Le meilleur moyen d’offrir plus de pouvoir d’achat aux consommateurs est encore d’augmenter la taille du gâteau à se partager.",
             
@@ -877,7 +877,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",4,0)
             )
             
-        ),
+        ),*/
         
         
         array(
@@ -924,7 +924,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
         ),
         
         
-        array(
+        /*array(
  
             "La France est un pays fondamentalement chrétien, et les institutions et lois doivent refléter cela.",
             
@@ -939,7 +939,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",4,0)
             )
             
-        ),
+        ),*/
         
         
         array(
@@ -978,7 +978,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
         ),*/
         
         
-        array(
+        /*array(
  
             "Le concept de nationalités, de frontières, de pays est aujourd’hui obsolète. Vive le monde et l’espèce humaine !",
             
@@ -993,10 +993,10 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",-3,0)
             )
             
-        ),
+        ),*/
         
         
-        array(
+       /* array(
  
             "C'est un devoir d'être fier de son pays.",
             
@@ -1011,10 +1011,10 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",3,0)
             )
             
-        ),
+        ),*/
         
         
-        array(
+        /*array(
  
             "Beaucoup d’immigrés ne sont pas assez intégrés dans notre société. Ils doivent faire un effort ou rentrer chez eux.",
             
@@ -1029,10 +1029,10 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",4,0)
             )
             
-        ),
+        ),*/
         
         
-        array(
+        /*array(
  
             "L’outrage au drapeau, ou à tout autre symbole de la République, devrait être puni.",
             
@@ -1047,7 +1047,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",4,0)
             )
             
-        )
+        )*/
         
     );
     
@@ -1072,7 +1072,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
         ),
         
         
-        array(
+        /*array(
  
             "Il est absolument nécessaire de déléguer des pouvoirs, et donc d’élire des représentants, pour assurer la bonne marche de notre société.",
             
@@ -1087,7 +1087,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",2,0)
             )
             
-        ),
+        ),*/
         
         
         /*array(
@@ -1108,7 +1108,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
         ),*/
         
         
-        array(
+        /*array(
  
             "La société humaine a besoin de leaders politiques charismatiques pour la guider et la mener à bon port.",
             
@@ -1123,10 +1123,10 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",4,0)
             )
             
-        ),
+        ),*/
         
         
-        array(
+        /*array(
  
             "L’élection ne change rien au fond : on choisit ses maîtres plutôt que de se les faire imposer. Le mandat représentatif est une vaste arnaque, une dictature qui ne dit pas son nom. Dirigeons nos affaires nous-mêmes !",
             
@@ -1141,10 +1141,10 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",-4,0)
             )
             
-        ),
+        ),*/
         
         
-        array(
+        /*array(
  
             "Il faut supprimer le poste de Président de la république, qui concentre trop de pouvoirs.",
             
@@ -1159,7 +1159,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",-3,0)
             )
             
-        ),
+        ),*/
         
         
         array(
@@ -1180,7 +1180,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
         ),
         
         
-        array(
+        /*array(
  
             "Il faut limiter le cumul des mandats.",
             
@@ -1195,7 +1195,7 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
                 array("Tout à fait d'accord.",-3,0)
             )
             
-        )
+        )*/
         
     );
             
