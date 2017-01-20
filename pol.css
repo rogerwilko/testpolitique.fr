@@ -154,8 +154,11 @@ h2 {
 }
 
 
-div.fb-like {
+div.fb-like, div.fb-page {
 	
 	display: inline-block;
 	float: right;
+	min-width: 300px;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }

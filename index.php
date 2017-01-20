@@ -26,14 +26,15 @@
 
 <br />
 <div class="quest">
-<div class="fb-like" data-href="http://www.facebook.com/testpolitiquefr" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+<!--<div class="fb-like" data-href="http://www.facebook.com/testpolitiquefr" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false"></div>-->
+<div class="fb-page" data-href="https://www.facebook.com/testpolitiquefr/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/testpolitiquefr/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/testpolitiquefr/">testpolitique.fr</a></blockquote></div>
 
 <!-- <h2>Bienvenue sur testpolitique.fr !</h2><br /> 
 <br />-->
 <h3>Quoi ?</h3><br />
 Mais qu'est-ce donc que cette bête ?<br />
 <br />
-testpolitique.fr est un site web vous permettant, à l'issue d'une soixantaine de questions portant sur des sujets divers et variés, de vous situer sur le vaste échiquier politique.<br />
+testpolitique.fr est un site web vous permettant, à l'issue d'une soixantaine de questions portant sur des sujets divers et variés, de vous situer sur le vaste échiquier politique.<br /><br />
 Il n'est certes pas le seul dans le genre, mais nous avons essayé d'innover par rapport aux applications existantes, en incluant non pas seulement les deux classiques axes économie / libertés individuelles, mais trois grands axes (Economie, Liberté et Société), divisés eux-mêmes en trois sous-axes.<br />
 <br />
 De plus, après avoir répondu au questionnaire, il vous sera également proposée une sélection de partis et d'associations politiques qui semblent les plus adaptés à vos prises de positions personnelles.

@@ -824,8 +824,24 @@ Il faut un audit public et transparent de cette « dette », que nous devrions e
             )
             
         ),*/
-        
-        
+		
+		array(
+ 
+            "La science résoudra à elle seule le problème écologique.",
+            
+            array (
+
+                array("Pas du tout d'accord.",-3,0),
+                
+                array("Pas trop d'accord.",-1,0),
+                
+                array("D'accord en partie.",2,0),
+                
+                array("Tout à fait d'accord.",4,0)
+            )
+            
+        ),
+
         array(
  
             "L’agriculture intensive est extrêmement néfaste aux peuples et à l’environnement, tout en n’étant pas aussi productive que l’on pourrait le penser. Celle-ci pourrait facilement être remplacée par une agriculture relocalisée et utilisant des techniques biologiques basées sur de vraies connaissances scientifiques, comme la microbiologie du sol, la connaissance de l’environnement, etc (par exemple, l’agro-écologie).",

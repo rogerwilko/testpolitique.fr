@@ -6,7 +6,8 @@
 <br />
 <div class="quest">
 
-<div class="fb-like" data-href="http://www.facebook.com/testpolitiquefr" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+<!--<div class="fb-like" data-href="http://www.facebook.com/testpolitiquefr" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false"></div>-->
+<div class="fb-page" data-href="https://www.facebook.com/testpolitiquefr/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/testpolitiquefr/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/testpolitiquefr/">testpolitique.fr</a></blockquote></div>
 
 <!--<div style="height: 85px;">
 <div class="fb-like" data-href="http://www.facebook.com/testpolitiquefr" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false"></div>
