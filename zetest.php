@@ -305,6 +305,9 @@
             
 
             //session_destroy();
+			
+			// pour les stats (seulement les url de résultat pour le moment, surtout pour savoir combien de gens arrivent à la fin)
+			file_put_contents("stats.txt", "[" . date("Y-m-d H:i") . "] http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]\n", FILE_APPEND | LOCK_EX);
         }
         
     
