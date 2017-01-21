@@ -202,7 +202,7 @@
             }
             
             echo("<div class='quest'>");
-
+			echo('<div class="fb-page" data-href="https://www.facebook.com/testpolitiquefr/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/testpolitiquefr/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/testpolitiquefr/">testpolitique.fr</a></blockquote></div>');
             
             echo("<h2>Courage, c'est fini ! Voici maintenant vos résultats :</h2><br /><br />");
             
