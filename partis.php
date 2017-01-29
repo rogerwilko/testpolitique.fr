@@ -153,7 +153,7 @@
     $psgauche = array (
         
         "nom" => "Parti Socialiste (PS) - Aile gauche",
-        "descr" => "Le Parti Socialiste, descendant lointain de la SFIO, est le parti de gauche le plus influent en France.<br />Son aile gauche, plus interventionniste, est représentée par des personnes comme Benoît Hamon ou Gérard Filoche.<br />Le candidat du PS à l'élection présidentielle de 2017 est encore inconnu.",
+        "descr" => "Le Parti Socialiste, descendant lointain de la SFIO, est le parti de gauche le plus influent en France.<br />Son aile gauche, plus interventionniste et progressiste, est représentée par des personnes comme Benoît Hamon et Gérard Filoche.<br />Le candidat du PS à l'élection présidentielle de 2017 est Benoît Hamon.",
         "lien" => "http://www.parti-socialiste.fr",
         "pos" => "Gauche",
         
@@ -178,7 +178,7 @@
     $psdroite = array (
         
         "nom" => "Parti Socialiste (PS) - Aile droite",
-        "descr" => "Le Parti Socialiste, descendant lointain de la SFIO, est le parti de gauche le plus influent en France.<br />Son aile droite, plus libérale sur le plan économique et plus sécuritaire, est représentée par des personnes comme Manuel Valls et François Hollande.<br />Le candidat du PS à l'élection présidentielle de 2017 est encore inconnu.",
+        "descr" => "Le Parti Socialiste, descendant lointain de la SFIO, est le parti de gauche le plus influent en France.<br />Son aile droite, plus libérale sur le plan économique et plus sécuritaire, est représentée par des personnes comme Manuel Valls et François Hollande.<br />Le candidat du PS à l'élection présidentielle de 2017 est Benoît Hamon.",
         "lien" => "http://www.parti-socialiste.fr",
         "pos" => "Centre-Gauche",
         
@@ -203,7 +203,7 @@
     $prg = array (
         
         "nom" => "Parti Radical de Gauche (PRG)",
-        "descr" => "Héritier du célèbre Parti Radical, le PRG est aujourd'hui un parti de centre-gauche, bien qu'assez progressiste sur les questions de société.<br />Pour les élections présidentielles de 2017, le PRG présente Sylvia Pinel aux \"Primaires de la gauche\".",
+        "descr" => "Héritier du célèbre Parti Radical, le PRG est aujourd'hui un parti de centre-gauche, assez progressiste sur les questions de société.<br />Pour les élections présidentielles de 2017, le PRG a présenté Sylvia Pinel aux \"Primaires de la gauche\", et soutiendra probablement Benoît Hamon.",
         "lien" => "http://www.planeteradicale.org",
         "pos" => "Centre-Gauche",
         
