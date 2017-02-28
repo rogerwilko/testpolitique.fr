@@ -347,8 +347,7 @@
                 $numrep++;
             }
 
-            echo '<p class="questrep"><input type="radio" class="radinp" name="rad" value="-1" checked><span class="rad">Cette question ne m\'intéresse pas.</span></input></p>';
-
+            echo '<p class="questrep"><input type="radio" class="radinp" name="rad" value="-1" id="neutral" checked><span class="rad"><label for="neutral">Cette question ne m\'intéresse pas.</span></label></input></p>';
             
              echo '<br /><br /><br />
                 <p class="sub">
