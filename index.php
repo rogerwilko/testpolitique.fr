@@ -31,13 +31,15 @@
 
 <!-- <h2>Bienvenue sur testpolitique.fr !</h2><br /> 
 <br />-->
-<h3>Quoi ?</h3><br />
-Mais qu'est-ce donc que cette bête ?<br />
+<h3>Mais qu'est-ce donc que cette bête ?</h3>
 <br />
-testpolitique.fr est un site web vous permettant, à l'issue d'une soixantaine de questions portant sur des sujets divers et variés, de vous situer sur le vaste échiquier politique.<br /><br />
-Il n'est certes pas le seul dans le genre, mais nous avons essayé d'innover par rapport aux applications existantes, en incluant non pas seulement les deux classiques axes économie / libertés individuelles, mais trois grands axes (Economie, Liberté et Société), divisés eux-mêmes en trois sous-axes.<br />
+testpolitique.fr est un site web vous permettant, à l'issue d'une soixantaine de questions portant sur divers sujets, de réaliser votre profil politique.<br /><br />
+Il n'est pas le seul dans le genre, mais nous avons essayé d'innover par rapport aux applications existantes, en utilisant trois grands axes (Economie, Liberté et Société), divisés eux-mêmes en trois sous-axes.<br />
 <br />
-De plus, après avoir répondu au questionnaire, il vous sera également proposée une sélection de partis et d'associations politiques qui semblent les plus adaptés à vos prises de positions personnelles.
+Après avoir répondu au questionnaire, il vous sera également proposée une sélection de partis et d'associations politiques qui semblent les plus adaptés à vos prises de position personnelles.<br />
+<br />
+Veuillez cependant noter que ce test se veut générique, la cible première n'est pas l'élection présidentielle ou une élection en particulier.<br />
+Pour savoir pour qui voter, lire les programmes des différents candidats reste encore la meilleure solution !
 <br />
 <br />
 <br />
@@ -45,7 +47,7 @@ De plus, après avoir répondu au questionnaire, il vous sera également propos�
 En ce qui concerne la méthodologie, nous avons choisi de mélanger deux types de questions :<br />
 <ul>
 <li>
-	Des questions de la forme "D'accord / Pas d'accord", assez génériques. Elles permettent de bâtir son propre raisonnement dans sa tête plutôt que de choisir parmi des réponses pré-mâchées, mais peuvent mener à une même réponse pour des points de vue diamètralement opposés.
+	Des questions de la forme "D'accord / Pas d'accord", assez génériques. Elles permettent de bâtir son propre raisonnement plutôt que de choisir parmi des réponses pré-mâchées, mais peuvent mener à une même réponse pour des points de vue diamètralement opposés.
 </li>
 <br />
 <li>
@@ -56,8 +58,7 @@ En ce qui concerne la méthodologie, nous avons choisi de mélanger deux types d
 Si vous hésitez entre plusieurs choix - ce sera souvent le cas ! -, peu importe, sélectionnez celui qui semble le plus proche de vos convictions.<br />
 Il s'agit en effet de repérer une tendance, pas d'analyser chaque réponse une à une.<br />
 <br />
-Evidemment, il ne s'agit que d'un indicateur, et si le résultat ne vous plaît pas, vous êtes totalement libre de l'ignorer.<br />
-D'autant plus que, malgré tous nos efforts, il est impossible de faire quelque chose de réellement objectif et complet.<br />
+Evidemment, il ne s'agit que d'un indicateur, et vous êtes totalement libre de l'ignorer.<br />
 <br />
 Mais, nous l'espérons, de par la variété des questions et des thèmes abordés, les résultats présentés ici seront d'autant plus clairs et instructifs que nous avons apporté d'Amour à sa conception.
 <br />

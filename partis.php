@@ -103,7 +103,7 @@
     $vertsgauche = array (
         
         "nom" => "Les Verts (EELV) - Aile gauche",
-        "descr" => "Europe-Ecologie Les Verts est un parti de gauche et écologiste.<br />On peut trouver dans son aile gauche, plus libertaire et plus radicale sur le plan économique, des personnes comme Yves Cochet.<br />Le candidat des Verts à l'élection présidentielle de 2017 est Yannick Jadot.",
+        "descr" => "Europe-Ecologie Les Verts est un parti de gauche et écologiste.<br />On peut trouver dans son aile gauche, plus libertaire et plus radicale sur le plan économique, des personnes comme Yves Cochet.<br />Les Verts soutiennent le candidat du Parti Socialiste Benoît Hamon à l'élection présidentielle de 2017.",
         "lien" => "http://eelv.fr",
         "pos" => "Gauche de la gauche",
         
@@ -128,7 +128,7 @@
     $vertsdroite = array (
         
         "nom" => "Les Verts (EELV) - Aile droite",
-        "descr" => "Europe-Ecologie Les Verts est un parti de gauche et écologiste.<br />On peut trouver dans son aile droite, certes toujours assez radicale sur le plan des libertés individuelles mais se rapprochant du centre-gauche sur le plan économique, des personnes comme Daniel Cohn-Bendit.<br />Le candidat des Verts à l'élection présidentielle de 2017 est Yannick Jadot.",
+        "descr" => "Europe-Ecologie Les Verts est un parti de gauche et écologiste.<br />On peut trouver dans son aile droite, certes toujours assez radicale sur le plan des libertés individuelles mais se rapprochant du centre-gauche sur le plan économique, des personnes comme Daniel Cohn-Bendit.<br />Les Verts soutiennent le candidat du Parti Socialiste Benoît Hamon à l'élection présidentielle de 2017.",
         "lien" => "http://eelv.fr",
         "pos" => "Gauche",
         
@@ -203,7 +203,7 @@
     $prg = array (
         
         "nom" => "Parti Radical de Gauche (PRG)",
-        "descr" => "Héritier du célèbre Parti Radical, le PRG est aujourd'hui un parti de centre-gauche, assez progressiste sur les questions de société.<br />Pour les élections présidentielles de 2017, le PRG a présenté Sylvia Pinel aux \"Primaires de la gauche\", et soutiendra probablement Benoît Hamon.",
+        "descr" => "Héritier du célèbre Parti Radical, le PRG est aujourd'hui un parti de centre-gauche, assez progressiste sur les questions de société.<br />Pour les élections présidentielles de 2017, le PRG a présenté Sylvia Pinel aux \"Primaires de la gauche\", et soutient maintenant Benoît Hamon.",
         "lien" => "http://www.planeteradicale.org",
         "pos" => "Centre-Gauche",
         
@@ -228,13 +228,38 @@
     $modem = array (
         
         "nom" => "Mouvement Démocrate (MoDem)",
-        "descr" => "Le MoDem a été fondé à l'issue de l'élection présidentielle de 2007 par le candidat UDF (centre-droit) et \"troisième homme\" de cette élection, François Bayrou.<br />Le candidat du MoDem pour l'élection présidentielle de 2017 est encore inconnu.",
+        "descr" => "Le MoDem a été fondé à l'issue de l'élection présidentielle de 2007 par le candidat UDF (centre-droit) et \"troisième homme\" de cette élection, François Bayrou.<br />Pour l'élection présidentielle de 2017, le MoDem s'est allié avec Emmanuel Macron, fondateur du mouvement libéral \"En Marche !\".",
         "lien" => "http://www.mouvementdemocrate.fr",
         "pos" => "Centre-droit",
         
         "axeeco" => array(25,20,15),
         "axelib" => array(20,20,20),
         "axesoc" => array(20,20,20),
+        
+        "coco" => array(30,25,15),
+        "decentr" => null,
+        "educ" => null,
+        
+        "hiera" => null,
+        "libindiv" => null,
+        "justice" => null,
+        
+        "ecolo" => null,
+        "inter" => null,
+        "demo" => null
+    );
+	
+	
+	$em = array (
+        
+        "nom" => "En Marche !",
+        "descr" => "\"En Marche !\" a été fondé en 2016 pour soutenir la candidature d'Emmanuel Macron, ancien Ministre de l'économie de François Hollande, à l'élection présidentielle de 2017.<br />Il s'agit d'un parti centriste, social-libéral, plutôt à droite / libéral sur les questions économiques, et plutôt à gauche / progressiste sur les questions de société.<br />Pour l'élection présidentielle de 2017, son candidat est donc Emmanuel Macron.",
+        "lien" => "https://en-marche.fr",
+        "pos" => "Centre / Libéral",
+        
+        "axeeco" => array(15,20,15),
+        "axelib" => array(-10,20,20),
+        "axesoc" => array(10,20,20),
         
         "coco" => array(30,25,15),
         "decentr" => null,
@@ -350,6 +375,6 @@
     );
     
 
-    $partis = array($npa,$lo,$anar,$pcf,$vertsgauche, $vertsdroite, $psgauche, $psdroite, $prg, $modem, $umpgauche, $umpdroite, $fn, $liber);
+    $partis = array($npa,$lo,$anar,$pcf,$vertsgauche, $vertsdroite, $psgauche, $psdroite, $prg, $modem, $em, $umpgauche, $umpdroite, $fn, $liber);
 
 ?>

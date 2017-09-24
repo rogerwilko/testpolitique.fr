@@ -263,7 +263,7 @@
             {
                 foreach($mp as $p)
                 {
-                    echo "<h3><a href='".$p[1]["lien"]." rel=\"nofollow\"'>".$p[1]["nom"]."</a></h3><br />";
+                    echo "<h3><a href='".$p[1]["lien"]."' rel=\"nofollow\">".$p[1]["nom"]."</a></h3><br />";
                     echo("<div class='descr'>");
                     echo("Score : ".$p[0]."%<br />");
                     echo("Positionnement : ".$p[1]["pos"]."<br /><br />");
@@ -347,7 +347,8 @@
                 $numrep++;
             }
 
-            echo '<p class="questrep"><input type="radio" class="radinp" name="rad" value="-1" checked><span class="rad">Cette question ne m\'intéresse pas.</span></input></p>';
+            //echo '<p class="questrep"><input type="radio" class="radinp" name="rad" value="-1" checked><span class="rad">Cette question ne m\'intéresse pas.</span></input></p>';
+              echo '<p class="questrep"><input type="radio" class="radinp" name="rad" value="-1" id="neutral" checked><span class="rad"><label for="neutral">Cette question ne m\'intéresse pas.</span></label></input></p>';
 
             
              echo '<br /><br /><br />

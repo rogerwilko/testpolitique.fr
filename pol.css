@@ -1,7 +1,7 @@
 
 body {
     font-family: Helvetica;
-    /*margin: 15%;*/
+
 }
 
 
@@ -19,13 +19,13 @@ a:visited {
 
 a:hover {
     color: red ;
-    /*text-decoration: underline overline ;*/
+
     font-weight: bold;
 }
 
 
 .menu {
-    /*background-color: #f7f7f7;*/
+
     border: 1px;
     border-style: dashed;
     height: 50px;
@@ -38,13 +38,13 @@ a:hover {
     padding: 20px;
     padding-top: 25px;
     font-size: 12px;
-    /*background-color: #f7f7f7;*/
+
     border: 1px;
     border-style: dashed;
-    /*height: 50px;*/
+
     margin: auto;
     text-align: center;
-    /*font-style: italic;*/
+
 	font-weight: bold;
 }
 
@@ -76,7 +76,7 @@ a:hover {
 
 
 h2 {
-    /*text-align: center;*/
+
 }
 
 
@@ -97,8 +97,8 @@ h2 {
 
 
 .quest {
-    font-size: 12px;
-    /*background-color: #f7f7f7;*/
+    font-size: 13px;
+
     border: 1px;
     border-style: dashed;
     padding: 30px;
@@ -162,3 +162,5 @@ div.fb-like, div.fb-page {
 	margin-left: 20px;
 	margin-bottom: 20px;
 }
+
+

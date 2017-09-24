@@ -48,7 +48,11 @@
         
         <div class="page">
         
-        <div class="logodiv"><a href="/"><img class="logo" src="img/logo.png" alt="logo" /></a></div>
+        <div class="logodiv">
+			<a href="/"><img class="logo" src="img/logo.png" alt="logo" /></a>
+		</div>
+		
+		<center><a href="https://play.google.com/store/apps/details?id=com.highway2game.gazelle" target="_blank" style="font-size: 12px;">[ Essayez notre application mobile Gazelle, le réseau social des histoires interactives ! ]</a><br /><br /></center>
         
         <div class="menu">
             <div class="menelem"><a href="index.php">Accueil</a></div>
