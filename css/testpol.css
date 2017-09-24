@@ -1,9 +1,8 @@
 
-body {
+/*body {
     font-family: Helvetica;
 
 }
-
 
 a:link {
     color: #000000;
@@ -78,12 +77,13 @@ a:hover {
 h2 {
 
 }
+*/
 
 
 .resulttitle {
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: #ff0000;
-    font-size: 20px;
+    /*font-size: 20px;*/
 }
 
 
@@ -97,29 +97,45 @@ h2 {
 
 
 .quest {
-    font-size: 13px;
+    font-size: 20px;
+	/*font-size: 175%;*/
 
     border: 1px;
     border-style: dashed;
+	border-radius: 5px;
+	
     padding: 30px;
-    border-radius: 5px;
+	line-height: 150%;
+    
 }
 
 .questtitle {
     font-weight: bold;
-    margin-left: 50px;
+    /*margin-left: 50px;*/
+	margin-left: 5%;
+	margin-bottom: 110px;
+	line-height: 150%;
+	/*font-size: 40%;*/
+	font-size: 26px;
+}
+
+header h2 {
+	
+	line-height: 150%;
 }
 
 
 .rad {
-    display: block;
-    margin-left: 50px;
+    /*display: block;*/
+    margin-left: 18px;
+	
 }
 
 
 .radinp {
-    position: relative;
-    top: 17px;
+    /*position: relative;
+    top: 17px;*/
+
 }
 
 
@@ -151,6 +167,8 @@ h2 {
     color: #ff0000;
     font-size: 16px;
     font-weight: bold;
+	display: inline-block;
+	top: 5px;
 }
 
 
@@ -160,7 +178,7 @@ div.fb-like, div.fb-page {
 	float: right;
 	min-width: 300px;
 	margin-left: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 

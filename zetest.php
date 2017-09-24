@@ -117,14 +117,15 @@
                 echo("<br /><br /><br /><h3>$title</h3><br />");
             
             
-            echo("<p class='descr'>$descr</p>");
+            if($descr != "")
+				echo("<p class='descr'>$descr</p><br />");
             
-            echo("<br /><br />Score minimum : $left<br />");
+            echo("<br />Score minimum : $left<br />");
             echo("Score maximum : $right<br />");
             
             echo("<br />Votre score : $score ($realscore%)<br /><br />");
             
-            echo("<br />Positionnement sur l'axe <span class='axe'>$axe</span> : <br /><br /><br /><br />". generateGraph($left, $right, $score)."<br /><br /><br />");
+            echo("<br />Positionnement sur l'axe <span class='axe'>$axe</span> : <br /><br /><br /><br />". generateGraph($left, $right, $score)."<br /><br />");
             
             return $pos+count($tab);
         }
@@ -201,15 +202,16 @@
                 }
             }
             
-            echo("<div class='quest'>");
+            //echo("<div class='quest'>");
+			echo("<div>");
 			echo('<div class="fb-page" data-href="https://www.facebook.com/testpolitiquefr/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/testpolitiquefr/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/testpolitiquefr/">testpolitique.fr</a></blockquote></div>');
             
-            echo("<h2>Courage, c'est fini ! Voici maintenant vos résultats :</h2><br /><br />");
+            echo("<header><h2>Courage, c'est fini ! Voici maintenant vos résultats :</h2></header><br /><br />");
             
             
             $pos=0;
             
-            echo("<br /><br /><br /><div class='resulttitle'>I) Positionnement sur l'axe Système économique</div>");
+            echo("<br /><br /><br /><header><h2><div class='resulttitle'>Système économique</div></h2></header>");
             
             $pos=writeResult("Propriété privée", "La gauche aura tendance à être plus interventionniste, plus sociale, plus attachée aux services publics, à la lutte contre les inégalités et à la redistribution des richesses.<br />La droite sera plus partisante du libre-échange, de la dérégulation, de la défense du droit de propriété et des impôts faibles.", "Socialisme / Libéralisme économique", $coco, $pos);
             $pos=writeResult("Décentralisation", "Utile, par exemple, pour faire la différence entre les communistes libertaires et les socialistes étatistes, ou entre les libéraux et les gaullistes.<br /> La gauche défendra plutôt la décentralisation économique et politique, alors que la droite voudra une plus grande centralisation au niveau national.", "Fédéralisme / Etatisme", $decentr, $pos);
@@ -218,8 +220,8 @@
             writeResult("Positionnement général", "", "", array_merge($coco, $decentr, $educ), 0);
             $pos2=$pos;
             
-            
-            echo("<br /><br /><br /><br /><br /><br /><div class='resulttitle'>II) Positionnement sur l'axe Liberté</div>");
+            echo '<div class="divider">&nbsp;</div>';
+            echo("<header><h2><div class='resulttitle'>Liberté</div></h2></header>");
             
             $pos=writeResult("Rapport à l'autorité", "Un positionnement de gauche sera plus libertaire, plus anti-hiérarchie, plus anti-conformiste.<br />Un positionnement de droite, en revanche, sera plus respectueux de l'autorité et de la hiérarchie.", "Libertaire / Autoritaire", $hiera, $pos);
             $pos=writeResult("Libertés individuelles", "La gauche défendra les libertés individuelles, la libre sexualité, la liberté de disposer de son corps.<br />La droite, à l'inverse, sera plus conservatrice et défendra l'ordre social traditionnel.", "Progressisme / Conservatisme", $lib, $pos);
@@ -229,7 +231,8 @@
             $pos2=$pos;
             
             
-            echo("<br /><br /><br /><br /><br /><br /><div class='resulttitle'>III) Positionnement sur l'axe Société</div>");
+			echo '<div class="divider">&nbsp;</div>';
+            echo("<header><h2><div class='resulttitle'>Société</div></h2></header>");
             
             $pos=writeResult("Environnement", "La gauche voudra lutter activement contre les \"excès du capitalisme\", tels que le productivisme, le consumérisme, la surproduction, les gaspillages,...<br />La droite se voudra plus pragmatique, plus attachée à la bonne santé de l'économie et comptera sur les entreprises privées et les bienfaits du marché libre pour prendre soin de la planète.", "Ecologisme / Productivisme", $eco, $pos);
             $pos=writeResult("Ouverture vers l'étranger", "La gauche se voudra internationaliste, altermondialiste, pour l'ouverture des frontières humaines et le mélange des cultures.<br />La droite sera plus nationaliste, plus protectionniste, plus chauvine, plus attachée à la défense de l'identité nationale, ceci pouvant aller parfois jusqu'à la xénophobie.", "Internationalisme / Nationalisme",$imi, $pos);
@@ -239,15 +242,17 @@
             $pos2=$pos;
             
             
-            
-            echo("<br /><br /><br /><br /><br /><br /><div class='resulttitle'>IV) Positionnement global</div><br />");
+			
+            echo '<div class="divider">&nbsp;</div>';
+            echo("<header><h2><div class='resulttitle'>Positionnement global</div></h2></header><br />");
             
             writeResult("Attention :", "Ce résultat est à prendre avec d'infinies précautions, en particulier si vous vous situez de côtés différents selon les axes principaux.<br />Ces grands axes sont donc à préférer à ce \"pot-pourri\".", "Gauche / Droite", array_merge($coco, $decentr, $educ, $hiera, $lib, $just, $eco, $imi, $demo), 0);
 
             $pos2=$pos;
 
             
-            echo("<br /><br /><br /><br /><br /><br /><div class='resulttitle'>V) Partis et organisations</div><br /><br /><br /><br />");
+			echo '<div class="divider">&nbsp;</div>';
+            echo("<header><h2><div class='resulttitle'>Partis et organisations</div></h2></header><br /><br /><br /><br />");
             
             echo("Voici une sélection des partis et organisations qui semblent le mieux correspondre à votre profil politique.<br /><br /><br /><br />");
             
@@ -270,9 +275,9 @@
                     echo($p[1]["descr"]."<br />");
                     echo("</div>");
                     
-                    echo("<br /><br />Positionnement sur l'axe <span class='axe'>Economie</span> : <br /><br /><br /><br />". generateGraph(-100, 100, $p[1]["axeeco"][0],  $p[1]["axeeco"][1],  $p[1]["axeeco"][2])."<br /><br /><br />");
-                    echo("<br /><br />Positionnement sur l'axe <span class='axe'>Liberté</span> : <br /><br /><br /><br />". generateGraph(-100, 100, $p[1]["axelib"][0], $p[1]["axelib"][1],  $p[1]["axelib"][2])."<br /><br /><br />");
-                    echo("<br /><br />Positionnement sur l'axe <span class='axe'>Société</span> : <br /><br /><br /><br />". generateGraph(-100, 100, $p[1]["axesoc"][0], $p[1]["axesoc"][1],  $p[1]["axesoc"][2])."<br /><br /><br />");
+                    echo("<br /><br />Positionnement sur l'axe <span class='axe'>Economie</span> : <br /><br /><br /><br />". generateGraph(-100, 100, $p[1]["axeeco"][0],  $p[1]["axeeco"][1],  $p[1]["axeeco"][2])."<br /><br />");
+                    echo("<br /><br />Positionnement sur l'axe <span class='axe'>Liberté</span> : <br /><br /><br /><br />". generateGraph(-100, 100, $p[1]["axelib"][0], $p[1]["axelib"][1],  $p[1]["axelib"][2])."<br /><br />");
+                    echo("<br /><br />Positionnement sur l'axe <span class='axe'>Société</span> : <br /><br /><br /><br />". generateGraph(-100, 100, $p[1]["axesoc"][0], $p[1]["axesoc"][1],  $p[1]["axesoc"][2])."<br /><br />");
 
 
                     echo("<br /><br /><br />");
@@ -317,7 +322,7 @@
             $nbrquest=count($bigtab);
             
 
-			echo "<form method='get' name='zetest' class='zetest' id='zetest' action=''>";
+			echo "<form method='get' name='zetest' class='zetest' id='zetest' action='#zetest'>";
 			
 			if($isLight)
 				echo "<input type='hidden' id='light' name='light' />";
@@ -336,14 +341,16 @@
             else
                 $strnbrquest=$nbr."/".$nbrquest;
 
-            echo'<p class="questtitle">[ '.$strnbrquest.' ] '.$q[0]."</p>";
+            echo'<header><h2><p class="questtitle">[ '.$strnbrquest.' ] '.$q[0]."</p></h2></header>";
 
             $numrep=0;
 
             foreach($q[1] as $r)
             {
                 echo '<p class="questrep"><input type="radio" id="rep'.$numrep.'" class="radinp" name="rad" value="'.$numrep.'"><label for="rep'.$numrep.'"><span class="rad">'.$r[0]."</span></label></input></p>";
-
+				
+				echo '<div class="divider">&nbsp;</div>';
+				
                 $numrep++;
             }
 
@@ -353,7 +360,8 @@
             
              echo '<br /><br /><br />
                 <p class="sub">
-                <input type="button" id="bsub" class="bsub" value="Suivant"></input>
+                <!--<input type="button" id="bsub" class="bsub" value="Suivant"></input>-->
+				<a href="#" class="button" id="bsub">Suivant</a>
                 </p>';
             
             
